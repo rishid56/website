@@ -76,28 +76,26 @@ p {
 }
 
 .menu {
-    list-style: none;
-    font-family: 'RocknRoll One', sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    background: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
     z-index: 10;
-    cursor: pointer;
 }
 
 .links {
-    float: left;
-    color: darkcyan;
-    padding-top: 5px;
+    display: inline;
     padding-left: 9px;
     padding-right: 9px;
-    padding-bottom: 5px;
+
     font-family: cursive;
     font-size: 20px;
 }
 
 .links:hover {
-    background-color: aquamarine;
+    font-size: 25px;
+    text-decoration: underline;
 
 }
 
@@ -107,8 +105,33 @@ html {
 
 a {
     text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
 }
 
 .article:hover {
     color: fuchsia;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+#contact {
+    background: firebrick;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
 }
